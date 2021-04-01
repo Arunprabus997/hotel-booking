@@ -8,7 +8,7 @@
 .body{
     display: flex;
     flex-direction: column;
-    height: 750px;
+    height: 100vh;
     justify-content: space-evenly;
     background-color: #e0e0e0;
 }
@@ -18,7 +18,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
+    
 }
 #search-bar{
     position: absolute;
@@ -84,6 +84,7 @@
    .placeimg:hover + .text3Sty {
     visibility: visible;
    }
+
    .placeimg:hover + .text4Sty {
     visibility: visible;
    }

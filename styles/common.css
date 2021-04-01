@@ -52,7 +52,6 @@ footer{
     align-items: center;
     bottom:25%;
     margin-right: 1%;
-
 }
 .contactStyle{
     bottom: 25%;
@@ -68,4 +67,10 @@ footer{
 a{
     text-decoration: none;
     color: black;
+}
+@media only screen and (max-width:500px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
 }
